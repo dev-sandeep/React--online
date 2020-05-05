@@ -1,4 +1,11 @@
 function Main() {
+    axios({
+        method: 'get',
+        url: 'http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=0dc8ac7f0e564f7a98de3c56a0d9c640',
+    }).then(function (e) {
+        console.log(e);
+    })
+    
     return (<div>
         <div id="wrapper">
             <header>
