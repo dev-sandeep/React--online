@@ -1,0 +1,32 @@
+<head>
+    <link rel="icon" type="image/png" sizes="48x48" href="images/favicon/icon-48x48.png">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
+        integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+
+    <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+    <script type="text/javascript" src="js/jquery.subscribe.js"></script>
+    <script type="text/javascript" src="js/jquery.contact.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <!-- all the components goes here -->
+    <script type="text/babel" src="scripts/Main.js" crossorigin></script>
+    <script type="text/babel" src="scripts/Components/Header.js" crossorigin></script>
+
+    <script type="text/babel">
+        ReactDOM.render(
+            <Main />,
+            document.getElementById('root')
+        );
+    </script>
+</body>

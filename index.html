@@ -1,13 +1,20 @@
-<div id="root"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
-<script type="text/babel" src="scripts/App.js" crossorigin></script>
-<script type="text/babel" src="scripts/Components/Header.js" crossorigin></script>
 
-<script type="text/babel">
-    ReactDOM.render(
-        <Greeting />,
-        document.getElementById('root')
-    );
-</script>
+<body>
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
+        integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+
+    <!-- all the components goes here -->
+    <script type="text/babel" src="scripts/App.js" crossorigin></script>
+    <script type="text/babel" src="scripts/Components/Header.js" crossorigin></script>
+
+    <script type="text/babel">
+        ReactDOM.render(
+            <Greeting />,
+            document.getElementById('root')
+        );
+    </script>
+</body>
